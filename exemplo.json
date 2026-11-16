@@ -1,0 +1,12 @@
+{
+  "age": 39,
+  "education-num": 13,
+  "capital-gain": 2174,
+  "capital-loss": 0,
+  "hours-per-week": 40,
+  "workclass": "State-gov",
+  "marital-status": "Never-married",
+  "occupation": "Adm-clerical",
+  "relationship": "Not-in-family",
+  "native-country": "United-States"
+}

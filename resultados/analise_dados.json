@@ -1,0 +1,106 @@
+{
+  "registros_originais": 48842,
+  "tipos": {
+    "age": "int64",
+    "workclass": "object",
+    "fnlwgt": "int64",
+    "education": "object",
+    "education-num": "int64",
+    "marital-status": "object",
+    "occupation": "object",
+    "relationship": "object",
+    "race": "object",
+    "sex": "object",
+    "capital-gain": "int64",
+    "capital-loss": "int64",
+    "hours-per-week": "int64",
+    "native-country": "object",
+    "income": "object"
+  },
+  "ausentes": {
+    "age": 0,
+    "workclass": 2799,
+    "fnlwgt": 0,
+    "education": 0,
+    "education-num": 0,
+    "marital-status": 0,
+    "occupation": 2809,
+    "relationship": 0,
+    "race": 0,
+    "sex": 0,
+    "capital-gain": 0,
+    "capital-loss": 0,
+    "hours-per-week": 0,
+    "native-country": 857,
+    "income": 0
+  },
+  "duplicados_completos": 52,
+  "estatisticas_numericas": {
+    "age": {
+      "count": 48842.0,
+      "mean": 38.64358543876172,
+      "std": 13.710509934443555,
+      "min": 17.0,
+      "25%": 28.0,
+      "50%": 37.0,
+      "75%": 48.0,
+      "max": 90.0
+    },
+    "education-num": {
+      "count": 48842.0,
+      "mean": 10.078088530363212,
+      "std": 2.5709727555922566,
+      "min": 1.0,
+      "25%": 9.0,
+      "50%": 10.0,
+      "75%": 12.0,
+      "max": 16.0
+    },
+    "capital-gain": {
+      "count": 48842.0,
+      "mean": 1079.0676262233324,
+      "std": 7452.019057655394,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 99999.0
+    },
+    "capital-loss": {
+      "count": 48842.0,
+      "mean": 87.50231358257237,
+      "std": 403.00455212435907,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 4356.0
+    },
+    "hours-per-week": {
+      "count": 48842.0,
+      "mean": 40.422382375824085,
+      "std": 12.391444024252307,
+      "min": 1.0,
+      "25%": 40.0,
+      "50%": 40.0,
+      "75%": 45.0,
+      "max": 99.0
+    }
+  },
+  "registros_com_entrada_repetida": 13901,
+  "registros_utilizados": 48790,
+  "treino": 39023,
+  "teste": 9767,
+  "classes": {
+    "0": 37109,
+    "1": 11681
+  },
+  "classes_treino": {
+    "0": 29672,
+    "1": 9351
+  },
+  "classes_teste": {
+    "0": 7437,
+    "1": 2330
+  }
+}
