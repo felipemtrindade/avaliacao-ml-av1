@@ -4,6 +4,20 @@
 
 Neste trabalho, usei a base Adult para prever se uma pessoa recebe até 50 mil dólares por ano ou mais que isso. É um problema de classificação, porque o modelo escolhe entre duas faixas. Ele não calcula o salário da pessoa.
 
+## Contexto acadêmico
+
+Projeto desenvolvido para a AV1 da disciplina de Machine Learning
+do IDP, no semestre 2026.2, sob orientação do professor Klayton Castro.
+
+A avaliação propõe um projeto de Machine Learning de ponta a ponta:
+escolha e preparação dos dados, treinamento e avaliação do modelo,
+disponibilização por API Flask e execução com Docker.
+
+Material de referência:
+[Prática de MLOps do professor Klayton Castro](https://github.com/klaytoncastro/idp-machinelearning/tree/main/mlops).
+
+A implementação e os resultados deste projeto são de autoria do aluno.
+
 ## Dados usados
 
 A base é da UCI e tem 48.842 registros, com 14 características e a coluna de renda. São dados do censo americano de 1994. Escolhi essa base porque ela tem números, textos e informações faltando, permitindo trabalhar a preparação antes do treinamento.
